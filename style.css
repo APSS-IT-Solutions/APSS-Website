@@ -15,7 +15,8 @@ body {
   font-size: 100px;
 }
 
-.sectionBg {
+.sectionBg,
+.mainBg {
   background-color: #f0f8ff;
 }
 
@@ -31,7 +32,7 @@ body {
 
 .partnerBg {
   background-image: url("Images/WhoWeAre.jpeg");
-  background-position: left;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -54,51 +55,8 @@ body {
   color: #ffffff;
 }
 
-.partnerBg .card {
-  width: 250px;
-  height: 200px;
-  text-align: left;
-  margin: auto;
-  padding: 0px;
-}
-
 .CTABgImage {
-  background-image: url("images/footer.png");
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.product-device::before {
-  position: absolute;
-  top: 10%;
-  right: 10px;
-  bottom: 10%;
-  left: 10px;
-  content: "";
-  /* background-color: rgba(255, 255, 255, .1); */
-  border-radius: 5px;
-}
-
-.product-device {
-  position: absolute;
-  right: -4%;
-  bottom: -30%;
-  width: 300px;
-  height: 540px;
-  background-color: #003153;
-
-  border-radius: 21px;
-  transform: rotate(30deg);
-}
-
-.product-device-2 {
-  top: -25%;
-  right: auto;
-  bottom: 0;
-  left: -4%;
-  background-color: aliceblue;
+  background-image: linear-gradient(to bottom right, #043797, #03549b);
 }
 
 .workflowBg .card {
@@ -116,5 +74,14 @@ body {
 }
 
 .mainBg {
-  background-image: linear-gradient(to bottom right, red, yellow);
+  background-color: #f0f8ff;
+}
+
+.mainBgImg {
+  width: 500px;
+}
+@media only screen and (max-width: 992px) {
+  .mainBgImg {
+    width: 100%;
+  }
 }
