@@ -1,0 +1,120 @@
+body {
+  color: #14346f !important;
+}
+
+.navbarBg {
+  background-color: #f0f8ff;
+}
+
+.faIcon,
+.faIconVision {
+  color: #14346f;
+}
+
+.faIconVision {
+  font-size: 100px;
+}
+
+.sectionBg {
+  background-color: #f0f8ff;
+}
+
+.workflowBg svg {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.partnerBg {
+  background-image: url("Images/WhoWeAre.jpeg");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.partnerBg::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.partnerText {
+  position: relative;
+  z-index: 2;
+  color: #ffffff;
+}
+
+.partnerBg .card {
+  width: 250px;
+  height: 200px;
+  text-align: left;
+  margin: auto;
+  padding: 0px;
+}
+
+.CTABgImage {
+  background-image: url("images/footer.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  /* background-color: rgba(255, 255, 255, .1); */
+  border-radius: 5px;
+}
+
+.product-device {
+  position: absolute;
+  right: -4%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #003153;
+
+  border-radius: 21px;
+  transform: rotate(30deg);
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: -4%;
+  background-color: aliceblue;
+}
+
+.workflowBg .card {
+  border: none;
+}
+
+.workflowBg svg {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.mainBg {
+  background-image: linear-gradient(to bottom right, red, yellow);
+}
