@@ -57,6 +57,7 @@ p {
 .workflowBg .card {
   border: none;
   color: #3658a7;
+  background-color: #f1f5ff;
 }
 
 .workflowBg svg {
