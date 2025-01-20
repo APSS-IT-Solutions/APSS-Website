@@ -9,6 +9,11 @@ p {
   line-height: 1.5;
 }
 
+.logo {
+  width: 16;
+  height: 16;
+}
+
 .navbarBg,
 .mainBg,
 .sectionBg {
