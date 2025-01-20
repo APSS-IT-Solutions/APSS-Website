@@ -2,22 +2,28 @@ body {
   color: #14346f !important;
 }
 
-.navbarBg {
+.navbarBg,
+.mainBg {
   background-color: #f0f8ff;
 }
 
 .faIcon,
 .faIconVision {
-  color: #14346f;
+  color: #ffffff;
 }
 
 .faIconVision {
-  font-size: 100px;
+  font-size: 75px;
 }
 
-.sectionBg,
-.mainBg {
-  background-color: #f0f8ff;
+.aboutUsBg,
+.workflowBg,
+.CTABgImage {
+  background-image: url("Images/testbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
 }
 
 .workflowBg svg {
@@ -53,10 +59,6 @@ body {
   position: relative;
   z-index: 2;
   color: #ffffff;
-}
-
-.CTABgImage {
-  background-image: linear-gradient(to bottom right, #043797, #03549b);
 }
 
 .workflowBg .card {
