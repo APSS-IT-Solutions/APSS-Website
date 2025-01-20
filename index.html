@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>APSS</title>
+
     <!--Bootstrap CDN for CSS-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -19,8 +20,9 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg stick-top navbarBg text-white">
-      <div class="container-fluid">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top navbarBg text-white">
+      <div class="container">
         <a href="index.html" class="navbar-brand align-items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -73,40 +75,35 @@
               <a class="nav-link" href="#industries">Industries We Serve</a>
             </li>
           </ul>
-          <div class="d-flex">
-            <a href="#footer" role="button">
-              <button class="btn btn-primary text-white">Contact Us</button></a
-            >
-          </div>
         </div>
       </div>
     </nav>
 
+    <!--Hero Section-->
     <main class="mainBg">
       <section class="py-5 container">
         <div class="row py-lg-5">
-          <div class="col-lg-7 col-md-12 mx-auto">
+          <div class="col-lg-6 col-md-12 mx-auto mainHeading">
             <h3
               class="display-lg-4 display-6 text-center text-lg-start fw-normal"
             >
-              Transform Your Digital Landscape with APSS
+              Transform Your Digital Landscape with <strong>APSS</strong>
             </h3>
-            <p class="lead mainHeading">
-              At APSS, we&#39;re not just another IT consulting firm. We&#39;re
-              your partners in digital transformation, committed to elevating
-              your business to new heights. With our cutting-edge solutions and
-              personalized approach, we&#39;re here to revolutionize the way you
-              operate in the digital world.
+            <p class="lead">
+              At APSS, we&#39;re not just another IT consulting firm. we’re your
+              partners in digital transformation, delivering innovative
+              solutions to elevate your business and revolutionize your digital
+              operations.
             </p>
             <p class="text-center text-lg-start">
               <a href="#services" class="btn btn-primary">Our Services</a>
             </p>
           </div>
-          <div class="col-lg-5 col-md-12 text-center my-auto">
+          <div class="col-lg-6 col-md-12 text-center my-auto">
             <img
-              class="headerImage img-fluid"
-              src="Images/itservices.png"
-              alt="IT Consulting"
+              class="img-fluid"
+              src="Images/headerImage.png"
+              alt="IT Services"
               data-aos="zoom-in"
               data-aos-duration="1500"
             />
@@ -114,27 +111,6 @@
         </div>
       </section>
     </main>
-    <!--<div
-      class="position-relative overflow-hidden p-3 p-md-5 text-center bg-light"
-    >
-      <div class="col-md-9 p-lg-5 mx-auto my-5">
-        <h1 class="display-4 fw-normal">
-          Transform Your Digital Landscape with APSS
-        </h1>
-        <p class="lead fw-normal">
-          At APSS, we&#39;re not just another IT consulting firm. We&#39;re your
-          partners in digital transformation, committed to elevating your
-          business to new heights. With our cutting-edge solutions and
-          personalized approach, we&#39;re here to revolutionize the way you
-          operate in the digital world.
-        </p>
-        <a class="btn btn-outline-secondary" href="#">Coming soon</a>
-      </div>
-      <div class="product-device shadow-sm d-none d-md-block"></div>
-      <div
-        class="product-device product-device-2 shadow-sm d-none d-md-block"
-      ></div>
-    </div>-->
 
     <section class="aboutUsBg" id="aboutUs">
       <div class="container p-5">
@@ -143,7 +119,7 @@
             <h2>About Us</h2>
           </div>
           <div class="col-md-8">
-            <p class="lead">
+            <p class="lead text-justify">
               At the intersection of innovation and expertise, we stand ready to
               guide your business through the ever-evolving landscape of
               technology. Welcome to APSS, where your digital transformation
@@ -152,7 +128,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 my-auto">
             <img src="Images/Untitled design (4).png" class="img-fluid" />
           </div>
           <div class="col-md-8 py-5">
@@ -205,18 +181,18 @@
             <div class="row">
               <div
                 class="col-md-6 col-lg-6 col-md-12 col-12 text-center my-auto"
+                data-aos="flip-left"
+                data-aos-duration="1500"
               >
                 <i class="faIcon faIconVision fa-solid fa-rocket"></i>
               </div>
-              <div class="col-lg-6 col-md-12 col-12 py-md-5 py-2">
+              <div class="col-lg-6 col-md-12 col-12 py-2">
                 <div class="row">
-                  <div class="col-12 py-2 text-center mainHeading">
+                  <div class="col-12 py-2 text-center">
                     <h2>Our Mission</h2>
                   </div>
                   <div class="row">
-                    <div
-                      class="col-md-12 d-flex align-items-start mainHeading py-2 px-4"
-                    >
+                    <div class="col-md-12 align-items-start py-2 px-4">
                       <p class="lh-base">
                         To revolutionize businesses through cutting-edge digital
                         solutions and bespoke software development, empowering
@@ -233,19 +209,19 @@
             <div class="row">
               <div
                 class="col-md-6 col-lg-6 col-md-12 col-12 text-center my-auto"
+                data-aos="flip-right"
+                data-aos-duration="1500"
               >
                 <i class="faIcon faIconVision fa-solid fa-eye"></i>
               </div>
-              <div class="col-lg-6 col-md-12 col-12 py-md-5 py-2">
+              <div class="col-lg-6 col-md-12 col-12 py-2">
                 <div class="row">
-                  <div class="col-12 py-2 text-center mainHeading">
+                  <div class="col-12 py-2 text-center">
                     <h2>Our Vision</h2>
                   </div>
                   <div class="row">
-                    <div
-                      class="col-md-12 d-flex align-items-start mainHeading py-2 px-4"
-                    >
-                      <p class="lh-base">
+                    <div class="col-md-12 align-items-start py-2 px-4">
+                      <p class="lh-base text-justify">
                         To be the catalyst for technological innovation, driving
                         sustainable digital ecosystems that shape the future of
                         industries worldwide.
@@ -261,7 +237,7 @@
     </section>
 
     <!--Services Section-->
-    <section class="album py-5 sectionBgColor" id="services">
+    <section class="album py-5 sectionBg serviceSection" id="services">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -575,150 +551,7 @@
       </div>
     </section>
 
-    <!--<section class="container" id="services">
-      <div class="row py-md-5 py-2 mx-auto text-center">
-        <div class="col-md-12">
-          <h2 class="pb-2 text-center mainHeading">Solutions We Provide</h2>
-        </div>
-      </div>
-      <div class="row p-lg-5 px-5">
-        <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1500">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="25"
-            height="25"
-            fill="currentColor"
-            class="bi bi-cloud-check"
-            viewBox="0 0 16 16"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0"
-            />
-            <path
-              d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z"
-            />
-          </svg>
-          <h5>Cloud Migration</h5>
-          <p>
-            Seamlessly transition your business to the cloud with our expert
-            guidance. We'll ensure a smooth, secure, and efficient migration
-            that boosts your productivity and scalability.
-          </p>
-        </div>
-        <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1500">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="25"
-            height="25"
-            fill="currentColor"
-            class="bi bi-shield-check"
-            viewBox="0 0 16 16"
-          >
-            <path
-              d="M5.338 1.59a61 61 0 0 0-2.837.856.48.48 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.7 10.7 0 0 0 2.287 2.233c.346.244.652.42.893.533q.18.085.293.118a1 1 0 0 0 .101.025 1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56"
-            />
-            <path
-              d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0"
-            />
-          </svg>
-          <h5>Cybersecurity Solutions</h5>
-          <p>
-            Protect your digital assets with our state-of-the-art cybersecurity
-            measures. We'll fortify your defenses against evolving threats,
-            giving you peace of mind in an increasingly connected world.
-          </p>
-        </div>
-        <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1500">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="25"
-            height="25"
-            fill="currentColor"
-            class="bi bi-laptop"
-            viewBox="0 0 16 16"
-          >
-            <path
-              d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5"
-            />
-          </svg>
-          <h5>Digital Transformation</h5>
-          <p>
-            Embrace the future with our comprehensive digital transformation
-            strategies. We'll help you leverage emerging technologies to
-            streamline operations and stay ahead of the competition.
-          </p>
-        </div>
-      </div>
-      <div class="row p-lg-5 px-5">
-        <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1500">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="25"
-            height="25"
-            fill="currentColor"
-            class="bi bi-app-indicator"
-            viewBox="0 0 16 16"
-          >
-            <path
-              d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1z"
-            />
-            <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
-          </svg>
-          <h5>Custom Software Development</h5>
-          <p>
-            Bring your unique ideas to life with our bespoke software solutions.
-            Our team of skilled developers will create tailor-made applications
-            that address your specific business needs.
-          </p>
-        </div>
-        <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1500">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="25"
-            height="25"
-            fill="currentColor"
-            class="bi bi-file-code"
-            viewBox="0 0 16 16"
-          >
-            <path
-              d="M6.646 5.646a.5.5 0 1 1 .708.708L5.707 8l1.647 1.646a.5.5 0 0 1-.708.708l-2-2a.5.5 0 0 1 0-.708zm2.708 0a.5.5 0 1 0-.708.708L10.293 8 8.646 9.646a.5.5 0 0 0 .708.708l2-2a.5.5 0 0 0 0-.708z"
-            />
-            <path
-              d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1"
-            />
-          </svg>
-          <h5>Web Development</h5>
-          <p>
-            Make a lasting impression online with our stunning and functional
-            websites. We’ll craft a digital presence that reflects your brand
-            identity and transforms visitors into devoted customers.
-          </p>
-        </div>
-        <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1500">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="25"
-            height="25"
-            fill="currentColor"
-            class="bi bi-card-image"
-            viewBox="0 0 16 16"
-          >
-            <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" />
-            <path
-              d="M1.5 2A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2zm13 1a.5.5 0 0 1 .5.5v6l-3.775-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12v.54L1 12.5v-9a.5.5 0 0 1 .5-.5z"
-            />
-          </svg>
-          <h5>UI & UX Design Services</h5>
-          <p>
-            Delight your users with intuitive and visually appealing interfaces.
-            Our design experts will craft experiences that keep your customers
-            coming back for more.
-          </p>
-        </div>
-      </div>
-    </section>-->
-
+    <!--Our Process Section-->
     <section class="workflowBg" id="process">
       <div class="container">
         <div class="row py-md-5 py-5">
@@ -922,7 +755,7 @@
                 data-bs-slide="prev"
               >
                 <span
-                  class="carousel-control-prev-icon"
+                  class="carousel-control-prev-icon bg-primary"
                   aria-hidden="true"
                 ></span>
                 <span class="visually-hidden">Previous</span>
@@ -934,7 +767,7 @@
                 data-bs-slide="next"
               >
                 <span
-                  class="carousel-control-next-icon"
+                  class="carousel-control-next-icon bg-primary"
                   aria-hidden="true"
                 ></span>
                 <span class="visually-hidden">Next</span>
@@ -946,7 +779,7 @@
     </section>
 
     <!--Who We Serve Section-->
-    <section class="mainBg" id="industries">
+    <section class="sectionBg" id="industries">
       <div class="container">
         <div class="pt-5">
           <div class="row">
@@ -966,25 +799,25 @@
               <div class="row">
                 <div class="col-md-12">
                   <p>
-                    <i class="fa-solid fa-industry"></i>Agile small and
+                    <i class="fa-solid fa-industry p-2"></i>Agile small and
                     medium-sized businesses ready to scale
                   </p>
                 </div>
                 <div class="col-md-12">
                   <p>
-                    <i class="fa-solid fa-notes-medical"></i>Healthcare
+                    <i class="fa-solid fa-notes-medical p-2"></i>Healthcare
                     organizations revolutionizing patient care
                   </p>
                 </div>
                 <div class="col-md-12">
                   <p>
-                    <i class="fa-solid fa-coins"></i>Financial institutions
+                    <i class="fa-solid fa-coins p-2"></i>Financial institutions
                     securing and streamlining operations
                   </p>
                 </div>
                 <div class="col-md-12">
                   <p>
-                    <i class="fa-solid fa-building-columns"></i>Government
+                    <i class="fa-solid fa-building-columns p-2"></i>Government
                     agencies enhancing public services through technology
                   </p>
                 </div>
@@ -995,14 +828,19 @@
       </div>
     </section>
 
-    <section>
+    <!--Industries Section-->
+    <section class="industriesSection">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            <img src="Images/ufu.png" class="img-fluid" />
+          <div
+            class="col-md-12 text-center"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+          >
+            <img src="Images/ufu.png" class="img-fluid" alt="Industries" />
           </div>
           <div
-            class="accordion accordion-flush"
+            class="accordion accordion-flush py-5"
             id="accordionFlushExample"
             data-aos="fade-left"
             data-aos-duration="1500"
@@ -1030,11 +868,9 @@
                 <div class="accordion-body">
                   <section>
                     <div class="container">
-                      <div class="row p-5">
+                      <div class="row p-md-5">
                         <div class="col-md-6">
-                          <h2 class="text-center mainHeading">
-                            Forging the Future
-                          </h2>
+                          <h3 class="text-start">Forging the Future</h3>
                           <p>
                             In an era of Industry 4.0, manufacturers face
                             unprecedented challenges and opportunities. We help
@@ -1045,15 +881,16 @@
                           <div class="row">
                             <div class="col-md-12">
                               <p class="pb-2">
-                                Integrate legacy systems with cutting-edge
-                                technologies
+                                <i class="fa-solid fa-square p-2"></i>Integrate
+                                legacy systems with cutting-edge technologies
                               </p>
                               <p class="pb-2">
-                                Implement AI-driven predictive maintenance
+                                <i class="fa-solid fa-square p-2"></i>Implement
+                                AI-driven predictive maintenance
                               </p>
                               <p class="pb-2">
-                                Optimize supply chains through advanced data
-                                analytics
+                                <i class="fa-solid fa-square p-2"></i>Optimize
+                                supply chains through advanced data analytics
                               </p>
                             </div>
                           </div>
@@ -1066,30 +903,30 @@
             </div>
 
             <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingOne">
+              <h2 class="accordion-header" id="flush-headingTwo">
                 <button
                   class="accordion-button collapsed fw-bold"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseOne"
+                  data-bs-target="#flush-collapseTwo"
                   aria-expanded="false"
-                  aria-controls="flush-collapseOne"
+                  aria-controls="flush-collapseTwo"
                 >
                   Retail &amp; eCommerce
                 </button>
               </h2>
               <div
-                id="flush-collapseOne"
+                id="flush-collapseTwo"
                 class="accordion-collapse collapse"
-                aria-labelledby="flush-headingOne"
+                aria-labelledby="flush-headingTwo"
                 data-bs-parent="#accordionFlushExample"
               >
                 <div class="accordion-body">
                   <section>
                     <div class="container">
-                      <div class="row p-5">
-                        <div class="col-md-6 text-center sectionBg">
-                          <h2>Redefining Customer Experience</h2>
+                      <div class="row p-md-5">
+                        <div class="col-md-6 text-start">
+                          <h3>Redefining Customer Experience</h3>
                           <p>
                             The digital revolution has transformed shopping
                             habits. We empower retailers to:
@@ -1099,13 +936,16 @@
                           <div class="row">
                             <div class="col-md-12">
                               <p class="pb-2">
-                                Create seamless omnichannel experiences
+                                <i class="fa-solid fa-square p-2"></i>Create
+                                seamless omnichannel experiences
                               </p>
                               <p class="pb-2">
-                                Leverage AI for personalized recommendations
+                                <i class="fa-solid fa-square p-2"></i> Leverage
+                                AI for personalized recommendations
                               </p>
                               <p class="pb-2">
-                                Ensure robust cybersecurity for customer data
+                                <i class="fa-solid fa-square p-2"></i>Ensure
+                                robust cybersecurity for customer data
                                 protection
                               </p>
                             </div>
@@ -1118,32 +958,32 @@
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingOne">
+              <h2 class="accordion-header" id="flush-headingThree">
                 <button
                   class="accordion-button collapsed fw-bold"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseOne"
+                  data-bs-target="#flush-collapseThree"
                   aria-expanded="false"
-                  aria-controls="flush-collapseOne"
+                  aria-controls="flush-collapseThree"
                 >
                   Construction
                 </button>
               </h2>
               <div
-                id="flush-collapseOne"
+                id="flush-collapseThree"
                 class="accordion-collapse collapse"
-                aria-labelledby="flush-headingOne"
+                aria-labelledby="flush-headingThree"
                 data-bs-parent="#accordionFlushExample"
               >
                 <div class="accordion-body">
                   <section>
                     <div class="container">
-                      <div class="row p-5">
+                      <div class="row p-md-5">
                         <div class="col-md-6">
-                          <h2 class="text-center mainHeading">
+                          <h3 class="text-start">
                             Building a Digital Foundation
-                          </h2>
+                          </h3>
                           <p>
                             The construction industry is embracing digital
                             transformation. We assist in:
@@ -1153,15 +993,18 @@
                           <div class="row">
                             <div class="col-md-12">
                               <p class="pb-2">
-                                Implementing Building Information Modeling (BIM)
-                                systems
+                                <i class="fa-solid fa-square p-2"></i
+                                >iImplementing Building Information Modeling
+                                (BIM) systems
                               </p>
                               <p class="pb-2">
-                                Enhancing project management with cloud-based
+                                <i class="fa-solid fa-square p-2"></i>Enhancing
+                                project management with cloud-based
                                 collaboration tools
                               </p>
                               <p class="pb-2">
-                                Ensuring regulatory compliance through automated
+                                <i class="fa-solid fa-square p-2"></i>Ensuring
+                                regulatory compliance through automated
                                 reporting
                               </p>
                             </div>
@@ -1175,30 +1018,30 @@
             </div>
 
             <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingOne">
+              <h2 class="accordion-header" id="flush-headingFour">
                 <button
                   class="accordion-button collapsed fw-bold"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseOne"
+                  data-bs-target="#flush-collapseFour"
                   aria-expanded="false"
-                  aria-controls="flush-collapseOne"
+                  aria-controls="flush-collapseFour"
                 >
                   Travel and Hospitality
                 </button>
               </h2>
               <div
-                id="flush-collapseOne"
+                id="flush-collapseFour"
                 class="accordion-collapse collapse"
-                aria-labelledby="flush-headingOne"
+                aria-labelledby="flush-headingFour"
                 data-bs-parent="#accordionFlushExample"
               >
                 <div class="accordion-body">
                   <section>
                     <div class="container">
-                      <div class="row p-5">
-                        <div class="col-md-6 text-center sectionBg">
-                          <h2>Navigating the Digital Landscape</h2>
+                      <div class="row p-md-5">
+                        <div class="col-md-6 text-start">
+                          <h3>Navigating the Digital Landscape</h3>
                           <p>
                             In an industry where customer experience is
                             paramount, we help you:
@@ -1208,16 +1051,18 @@
                           <div class="row">
                             <div class="col-md-12">
                               <p class="pb-2">
-                                Develop AI-powered chatbots for 24/7 customer
-                                service
+                                <i class="fa-solid fa-square p-2"></i>Develop
+                                AI-powered chatbots for 24/7 customer service
                               </p>
                               <p class="pb-2">
-                                Implement smart room technologies for enhanced
-                                guest experiences
+                                <i class="fa-solid fa-square p-2"></i>Implement
+                                smart room technologies for enhanced guest
+                                experiences
                               </p>
                               <p class="pb-2">
-                                Utilize big data analytics for personalized
-                                marketing campaigns
+                                <i class="fa-solid fa-square p-2"></i>Utilize
+                                big data analytics for personalized marketing
+                                campaigns
                               </p>
                             </div>
                           </div>
@@ -1230,32 +1075,32 @@
             </div>
 
             <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingOne">
+              <h2 class="accordion-header" id="flush-headingFive">
                 <button
                   class="accordion-button collapsed fw-bold"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseOne"
+                  data-bs-target="#flush-collapseFive"
                   aria-expanded="false"
-                  aria-controls="flush-collapseOne"
+                  aria-controls="flush-collapseFive"
                 >
                   Insurance
                 </button>
               </h2>
               <div
-                id="flush-collapseOne"
+                id="flush-collapseFive"
                 class="accordion-collapse collapse"
-                aria-labelledby="flush-headingOne"
+                aria-labelledby="flush-headingFive"
                 data-bs-parent="#accordionFlushExample"
               >
                 <div class="accordion-body">
                   <section>
                     <div class="container">
-                      <div class="row p-5">
+                      <div class="row p-md-5">
                         <div class="col-md-6">
-                          <h2 class="text-center mainHeading">
+                          <h3 class="text-start">
                             Insuring the Future with Technology
-                          </h2>
+                          </h3>
                           <p>
                             The insurance sector faces unique regulatory and
                             technological challenges. Our solutions include:
@@ -1265,15 +1110,17 @@
                           <div class="row">
                             <div class="col-md-12">
                               <p class="pb-2">
-                                Blockchain technology for secure, transparent
-                                transactions
+                                <i class="fa-solid fa-square p-2"></i>Blockchain
+                                technology for secure, transparent transactions
                               </p>
                               <p class="pb-2">
-                                Machine learning algorithms for risk assessment
-                                and fraud detection
+                                <i class="fa-solid fa-square p-2"></i>Machine
+                                learning algorithms for risk assessment and
+                                fraud detection
                               </p>
                               <p class="pb-2">
-                                Cloud-based systems for improved claim
+                                <i class="fa-solid fa-square p-2"></i
+                                >Cloud-based systems for improved claim
                                 processing
                               </p>
                             </div>
@@ -1287,30 +1134,30 @@
             </div>
 
             <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingOne">
+              <h2 class="accordion-header" id="flush-headingSix">
                 <button
                   class="accordion-button collapsed fw-bold"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseOne"
+                  data-bs-target="#flush-collapseSix"
                   aria-expanded="false"
-                  aria-controls="flush-collapseOne"
+                  aria-controls="flush-collapseSix"
                 >
                   Healthcare
                 </button>
               </h2>
               <div
-                id="flush-collapseOne"
+                id="flush-collapseSix"
                 class="accordion-collapse collapse"
-                aria-labelledby="flush-headingOne"
+                aria-labelledby="flush-headingSix"
                 data-bs-parent="#accordionFlushExample"
               >
                 <div class="accordion-body">
                   <section>
                     <div class="container">
-                      <div class="row p-5">
-                        <div class="col-md-6 p-5 my-auto text-center sectionBg">
-                          <h2>Innovating for Better Patient Care</h2>
+                      <div class="row p-md-5">
+                        <div class="col-md-6 text-start">
+                          <h3>Innovating for Better Patient Care</h3>
                           <p>
                             In an industry where every second counts, we
                             provide:
@@ -1320,12 +1167,17 @@
                           <div class="row">
                             <div class="col-md-12">
                               <p class="pb-2">
-                                Interoperable Electronic Health Record (EHR)
+                                <i class="fa-solid fa-square p-2"></i
+                                >Interoperable Electronic Health Record (EHR)
                                 systems
                               </p>
-                              <p class="pb-2">AI-assisted diagnostic tools</p>
                               <p class="pb-2">
-                                Telemedicine platforms for remote patient care
+                                <i class="fa-solid fa-square p-2"></i
+                                >AI-assisted diagnostic tools
+                              </p>
+                              <p class="pb-2">
+                                <i class="fa-solid fa-square p-2"></i
+                                >Telemedicine platforms for remote patient care
                               </p>
                             </div>
                           </div>
@@ -1341,38 +1193,41 @@
       </div>
     </section>
 
-    <section class="mainBg">
+    <!--Why Choose Us Section-->
+    <section class="sectionBg">
       <div class="container">
-        <div class="col-md-8 p-lg-8 mx-auto py-5">
+        <div
+          class="col-md-8 p-lg-8 mx-auto py-5"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
           <h1 class="display-4 fw-normal text-center">Why Choose Us?</h1>
-
-          <ul>
-            <li>
-              Industry Expertise: With years of experience across various
-              sectors, we understand the unique challenges and opportunities in
-              your industry.
-            </li>
-            <li>
-              Innovative Solutions: We&#39;re always at the forefront of
-              technology, bringing you cutting-edge solutions that give you a
-              competitive edge.
-            </li>
-            <li>
-              Personalized Approach: Your business is unique, and so are our
-              solutions. We tailor our services to fit your specific needs and
-              goals.
-            </li>
-            <li>
-              360-Degree Approach: We don&#39;t just solve problems; we
-              anticipate them. Our holistic approach ensures comprehensive
-              solutions that address all aspects of your IT needs.
-            </li>
-            <li>
-              Top-Notch Services: Quality is at the heart of everything we do.
-              We&#39;re committed to delivering excellence in every project we
-              undertake.
-            </li>
-          </ul>
+          <p class="pb-2">
+            <i class="fa-solid fa-square p-2"></i> Industry Expertise: With
+            years of experience across various sectors, we understand the unique
+            challenges and opportunities in your industry.
+          </p>
+          <p class="pb-2">
+            <i class="fa-solid fa-square p-2"></i>Innovative Solutions:
+            We&#39;re always at the forefront of technology, bringing you
+            cutting-edge solutions that give you a competitive edge.
+          </p>
+          <p class="pb-2">
+            <i class="fa-solid fa-square p-2"></i>Personalized Approach: Your
+            business is unique, and so are our solutions. We tailor our services
+            to fit your specific needs and goals.
+          </p>
+          <p class="pb-2">
+            <i class="fa-solid fa-square p-2"></i>360-Degree Approach: We
+            don&#39;t just solve problems; we anticipate them. Our holistic
+            approach ensures comprehensive solutions that address all aspects of
+            your IT needs.
+          </p>
+          <p class="pb-2">
+            <i class="fa-solid fa-square p-2"></i>Top-Notch Services: Quality is
+            at the heart of everything we do. We&#39;re committed to delivering
+            excellence in every project we undertake.
+          </p>
         </div>
       </div>
     </section>
@@ -1380,11 +1235,14 @@
     <!--CTA-->
     <section class="CTABgImage" id="footer">
       <div class="py-5 container">
-        <div class="row py-lg-5 text-center">
+        <div class="row py-lg-5">
           <div class="col-lg-12 col-md-8 mx-auto">
-            <h3 class="display-4 fw-normal text-white">Let’s Work Together!</h3>
-            <p class="lead text-white text-center">
-              We’re here to help you succeed. Contact us today!
+            <h4 class="display-4 fw-normal text-white">
+              Ready to Transform Your IT Landscape?
+            </h4>
+            <p class="text-white mx-auto">
+              Don&#39;t let your tech questions keep you up at night. Take the
+              first step towards innovative solutions.
             </p>
             <form id="contact-form">
               <div class="row justify-content-center py-4">
@@ -1411,7 +1269,10 @@
                       <div class="modal-dialog">
                         <div class="modal-content">
                           <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">
+                            <h5
+                              class="modal-title text-dark"
+                              id="exampleModalLabel"
+                            >
                               Connect With Us
                             </h5>
                             <button
@@ -1516,29 +1377,29 @@
                 <strong class="text-white">APSS</strong></a
               >
             </div>
-            <div class="col-12 col-md">
+            <div class="col-12 col-md p-2">
               <a class="nav-link text-white" href="#aboutUs"
                 ><h5 class="fs-6">About Us</h5></a
               >
             </div>
-            <div class="col-12 col-md col-sm-12">
+            <div class="col-12 col-md col-sm-12 p-2">
               <a class="nav-link text-white" href="#services"
-                ><h5 class="fs-6">Services</h5></a
+                ><h5 class="fs-6">Our Services</h5></a
               >
             </div>
-            <div class="col-12 col-md">
+            <div class="col-12 col-md p-2">
               <a class="nav-link text-white" href="#process"
                 ><h5 class="fs-6">Our Process</h5></a
               >
             </div>
-            <div class="col-12 col-md">
+            <div class="col-12 col-md p-2">
               <a class="nav-link text-white" href="#partner"
                 ><h5 class="fs-6">Why Choose Us</h5></a
               >
             </div>
-            <div class="col-12 col-md">
+            <div class="col-12 col-md p-2">
               <a class="nav-link text-white" href="#industries"
-                ><h5 class="fs-6">Industries</h5></a
+                ><h5 class="fs-6">Industries We Serve</h5></a
               >
             </div>
           </div>
