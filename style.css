@@ -35,16 +35,6 @@ body {
   color: white;
 }
 
-.workflowBg svg {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  margin: auto;
-}
-
 .workflowBg .card {
   border: none;
 }
