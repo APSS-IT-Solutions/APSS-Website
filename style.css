@@ -85,6 +85,10 @@ h2 {
   width: 75%;
 }
 
+.industriesSection h2 {
+  padding-top: 0px;
+}
+
 .accordion-button {
   border-radius: 10px 10px 10px 10px !important;
 
