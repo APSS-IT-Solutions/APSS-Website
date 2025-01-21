@@ -51,13 +51,13 @@
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          style="border: none"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class=""
+            ><i class="fa-solid fa-bars-progress" style="color: #3658a7"></i
+          ></span>
         </button>
-        <div
-          class="collapse navbar-collapse customNavbar"
-          id="navbarSupportedContent"
-        >
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html"
@@ -1432,5 +1432,13 @@
       emailjs.init("rgNQ-DGggHnModCBc");
     </script>
     <script src="script.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".navbar a").on("click", function () {
+          $(".navbar-collapse").collapse("hide");
+        });
+      });
+    </script>
   </body>
 </html>
