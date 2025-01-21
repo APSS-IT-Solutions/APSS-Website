@@ -1,6 +1,5 @@
 html,
 body {
-  color: #3658a7 !important;
   font-size: 16px;
 }
 
@@ -36,8 +35,10 @@ p {
   color: #3658a7;
 }
 
-.mainHeading {
+.mainHeading,
+h2 {
   padding-top: 50px;
+  color: #3658a7 !important;
 }
 
 .faIcon,
@@ -51,7 +52,6 @@ p {
 
 .serviceSection .card {
   height: 300px;
-  color: #3658a7;
 }
 
 .serviceSection .iconColor {
@@ -72,7 +72,6 @@ p {
 
 .workflowBg .card {
   border: none;
-  color: #3658a7;
   background-color: #f1f5ff;
 }
 
@@ -96,5 +95,4 @@ p {
   border: solid 1px none;
   background-color: #ffffff;
   margin-bottom: 1rem;
-  color: #00008b;
 }
