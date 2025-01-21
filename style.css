@@ -59,7 +59,9 @@ h2 {
   height: 350px;
 }
 
-.serviceSection .iconColor {
+.serviceSection .iconColor,
+.navbarBg a:hover,
+.navbarBg .nav-link.active {
   color: #7e5cad;
 }
 

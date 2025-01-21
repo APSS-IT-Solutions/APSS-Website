@@ -24,9 +24,9 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
 
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#nav" data-bs-offset="0">
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg fixed-top navbarBg text-white">
+    <nav class="navbar navbar-expand-lg fixed-top navbarBg text-white" id="nav">
       <div class="container">
         <a href="index.html" class="navbar-brand align-items-center">
           <svg
@@ -60,9 +60,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a
-              >
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#aboutUs">About Us</a>
@@ -88,38 +86,40 @@
     </nav>
 
     <!--Hero Section-->
-    <main class="mainBg">
-      <section class="pt-5 px-3 container">
-        <div class="row py-lg-5">
-          <div
-            class="col-lg-6 col-md-12 mx-auto mainHeading text-center text-lg-start"
-          >
-            <h3 class="display-lg-4 display-6 fw-normal">
-              Transform Your Digital Landscape with <strong>APSS</strong>
-            </h3>
-            <p class="lead">
-              At APSS, we&#39;re not just another IT consulting firm. We’re your
-              partners in digital transformation, delivering innovative
-              solutions to elevate your business and revolutionize your digital
-              operations.
-            </p>
-            <p class="text-sm-center text-lg-start">
-              <a href="#services" class="btn btn-primary">Our Services</a>
-            </p>
+    <section>
+      <main class="mainBg">
+        <section class="pt-5 px-3 container">
+          <div class="row py-lg-5">
+            <div
+              class="col-lg-6 col-md-12 mx-auto mainHeading text-center text-lg-start"
+            >
+              <h3 class="display-lg-4 display-6 fw-normal">
+                Transform Your Digital Landscape with <strong>APSS</strong>
+              </h3>
+              <p class="lead">
+                At APSS, we&#39;re not just another IT consulting firm. We’re
+                your partners in digital transformation, delivering innovative
+                solutions to elevate your business and revolutionize your
+                digital operations.
+              </p>
+              <p class="text-sm-center text-lg-start">
+                <a href="#services" class="btn btn-primary">Our Services</a>
+              </p>
+            </div>
+            <div class="col-lg-6 col-md-12 text-center my-auto">
+              <img
+                class="img-fluid"
+                src="Images/headerPerson.png"
+                alt="Person with laptop"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                loading="lazy"
+              />
+            </div>
           </div>
-          <div class="col-lg-6 col-md-12 text-center my-auto">
-            <img
-              class="img-fluid"
-              src="Images/headerPerson.png"
-              alt="Person with laptop"
-              data-aos="zoom-in"
-              data-aos-duration="1500"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      </section>
-    </main>
+        </section>
+      </main>
+    </section>
 
     <!--About Us Section-->
     <section class="aboutUsBg" id="aboutUs">
@@ -1350,7 +1350,7 @@
         <footer class="pt-4 pt-md-5 border-top container text-start">
           <div class="row">
             <div class="col-12 col-md navText pb-2">
-              <a class="nav-link" href="index.html">
+              <a class="nav-link" href="/">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 512 512"
