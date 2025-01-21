@@ -11,6 +11,9 @@ body {
   .lead {
     font-size: 14px;
   }
+  .serviceSection .card {
+    height: 400px;
+  }
 }
 
 .logo {
