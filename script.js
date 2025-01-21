@@ -14,7 +14,7 @@ document
     emailjs.sendForm(serviceID, templateID, this).then(
       () => {
         btn.value = "Send Email";
-        alert("Sent!");
+        alert("Your email has been sent! We'll be in touch shortly.!");
       },
       (err) => {
         btn.value = "Send Email";

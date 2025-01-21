@@ -8,16 +8,8 @@ h2 {
   color: #3658a7;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    font-size: 14px;
-  }
-  .lead {
-    font-size: 14px;
-  }
-  .serviceSection .card {
-    height: 400px;
-  }
+.navbarBg {
+  background-color: #f5f2f2;
 }
 
 .logo {
@@ -25,12 +17,9 @@ h2 {
   height: 16;
 }
 
-.navbarBg {
-  background-color: #f5f2f2;
-}
-
-.mainBg {
-  border-radius: 0 0 0 50%;
+.navbarBg li,
+.navbarBg a {
+  color: #3658a7;
 }
 
 .navbarBg li {
@@ -39,14 +28,13 @@ h2 {
   font-weight: bold;
 }
 
+.mainBg {
+  border-radius: 0 0 0 50%;
+}
+
 .mainBg,
 .sectionBg {
   background-color: #f1f5ff;
-}
-
-.navbarBg li,
-.navbarBg a {
-  color: #3658a7;
 }
 
 .mainHeading,
@@ -75,18 +63,6 @@ h2 {
   color: #7e5cad;
 }
 
-.industriesSection img {
-  width: 75%;
-}
-
-.CTABgImage {
-  background-image: url("Images/footerBg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  color: white;
-}
-
 .workflowBg .card {
   border: none;
   background-color: #f1f5ff;
@@ -102,6 +78,10 @@ h2 {
   margin: auto;
 }
 
+.industriesSection img {
+  width: 75%;
+}
+
 .accordion-button {
   border-radius: 10px 10px 10px 10px !important;
 
@@ -112,4 +92,24 @@ h2 {
   border: solid 1px none;
   background-color: #ffffff;
   margin-bottom: 1rem;
+}
+
+.CTABgImage {
+  background-image: url("Images/footerBg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  .lead {
+    font-size: 14px;
+  }
+  .serviceSection .card {
+    height: 400px;
+  }
 }
