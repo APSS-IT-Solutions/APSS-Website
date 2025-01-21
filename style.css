@@ -1,17 +1,25 @@
 html,
 body {
   font-size: 16px;
+  line-height: 1.8;
 }
 
-p {
-  text-align: justify;
-  text-align-last: left;
-  line-height: 1.5;
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  .lead {
+    font-size: 14px;
+  }
 }
 
 .logo {
   width: 16;
   height: 16;
+}
+
+.navbarBg {
+  background-color: #f5f2f2;
 }
 
 .mainBg {
@@ -24,7 +32,6 @@ p {
   font-weight: bold;
 }
 
-.navbarBg,
 .mainBg,
 .sectionBg {
   background-color: #f1f5ff;
@@ -38,7 +45,10 @@ p {
 .mainHeading,
 h2 {
   padding-top: 50px;
-  color: #3658a7 !important;
+}
+
+.mainHeading h3 {
+  color: #3658a7;
 }
 
 .faIcon,
@@ -51,7 +61,7 @@ h2 {
 }
 
 .serviceSection .card {
-  height: 300px;
+  height: 350px;
 }
 
 .serviceSection .iconColor {
