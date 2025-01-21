@@ -14,6 +14,10 @@ p {
   height: 16;
 }
 
+.mainBg {
+  border-radius: 0 0 0 50%;
+}
+
 .navbarBg,
 .mainBg,
 .sectionBg {
@@ -75,13 +79,9 @@ p {
   margin: auto;
 }
 
-.accordion-item {
-  background-color: #f1f5ff;
-}
-
 .accordion-button {
   border-radius: 10px 10px 10px 10px !important;
-  background-color: #cfe2ff;
+
   margin-bottom: 1rem;
 }
 
