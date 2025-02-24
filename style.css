@@ -4,17 +4,25 @@ body {
   line-height: 1.8;
 }
 
+h3 {
+  font-size: 1.8125rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
 h2 {
   color: #3658a7;
 }
 
 .navbarBg {
-  background-color: #f5f2f2;
+  background-color: #ffffff;
 }
 
 .logo {
-  width: 16;
-  height: 16;
+  width: 25px;
+  height: 25px;
 }
 
 .navbarBg li,
@@ -29,12 +37,18 @@ h2 {
 }
 
 .mainBg {
-  border-radius: 0 0 0 50%;
+  /*border-radius: 0 0 0 50%;*/
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
-.mainBg,
-.sectionBg {
-  background-color: #f1f5ff;
+.mainBg {
+  /*background-color: #f1f5ff;*/
+  background-image: url("Images/BannerImg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
 }
 
 .mainHeading,
@@ -48,11 +62,15 @@ h2 {
 
 .faIcon,
 .faIconVision {
-  color: #7e5cad;
+  color: #312f84;
 }
 
 .faIconVision {
   font-size: 75px;
+}
+
+.serviceSection {
+  background-color: #f1f5ff;
 }
 
 .serviceSection .card {
@@ -62,11 +80,12 @@ h2 {
 .serviceSection .iconColor,
 .navbarBg a:hover,
 .navbarBg .nav-link.active {
-  color: #7e5cad;
+  color: #312f84;
 }
 
 .workflowBg .card {
   border: none;
+  height: 300px;
 }
 
 .workflowBg svg {
@@ -85,10 +104,6 @@ h2 {
 
 .industriesSection img {
   width: 75%;
-}
-
-.industriesSection h2 {
-  padding-top: 0px;
 }
 
 .accordion-button {
@@ -117,8 +132,5 @@ h2 {
   }
   .lead {
     font-size: 14px;
-  }
-  .serviceSection .card {
-    height: 400px;
   }
 }
