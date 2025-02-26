@@ -69,15 +69,9 @@ h2 {
   font-size: 75px;
 }
 
+.aboutUsBg .sectionBg,
 .serviceSection {
-  background-image: url("Images/BlueBg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.aboutUsBg .sectionBg {
-  background-color: #e2eaf5;
+  background-color: #e7f1ff;
 }
 
 .aboutUsBg .card {
@@ -86,6 +80,15 @@ h2 {
 
 .serviceSection .card {
   height: 350px;
+  border: none;
+}
+
+.carouselLeftButton {
+  margin-left: -115px;
+}
+
+.carouselRightButton {
+  margin-right: -115px;
 }
 
 .serviceSection .iconColor,
@@ -110,7 +113,11 @@ h2 {
 }
 
 .whoWeServeBg .container {
-  background-color: #e2eaf5;
+  background-color: #e7f1ff;
+}
+
+.industriesSection .container {
+  background-color: #e7f1ff;
 }
 
 .industriesSection img {
@@ -143,5 +150,12 @@ h2 {
   }
   .lead {
     font-size: 14px;
+  }
+  .carouselLeftButton {
+    margin-left: -15px;
+  }
+
+  .carouselRightButton {
+    margin-right: -15px;
   }
 }
