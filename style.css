@@ -148,6 +148,10 @@ h2 {
   body {
     font-size: 14px;
   }
+  .mainBg {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
   .lead {
     font-size: 14px;
   }
