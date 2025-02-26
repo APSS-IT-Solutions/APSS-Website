@@ -70,7 +70,18 @@ h2 {
 }
 
 .serviceSection {
-  background-color: #f1f5ff;
+  background-image: url("Images/BlueBg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.aboutUsBg .sectionBg {
+  background-color: #e2eaf5;
+}
+
+.aboutUsBg .card {
+  border: none;
 }
 
 .serviceSection .card {
@@ -98,8 +109,8 @@ h2 {
   margin: auto;
 }
 
-.whoWeServeBg {
-  background-color: #f1f5ff;
+.whoWeServeBg .container {
+  background-color: #e2eaf5;
 }
 
 .industriesSection img {
