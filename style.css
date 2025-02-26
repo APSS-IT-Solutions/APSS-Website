@@ -49,6 +49,7 @@ h2 {
   background-repeat: no-repeat;
   background-position: center;
   color: white;
+  height: 100vh;
 }
 
 .mainHeading,
