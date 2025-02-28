@@ -23,16 +23,42 @@ document
     );
   });
 
-var carouselWidth = $(".carousel-inner")[0].scrollWidth;
+var carouselWidth = $(".serviceSection .carousel-inner")[0].scrollWidth;
 console.log(carouselWidth);
-var cardWidth = $(".carousel-item").width();
+var cardWidth = $(".serviceSection .carousel-item").width();
 console.log(cardWidth);
 var currentScrollPostion = 0;
-$(".carousel-control-next").on("click", function () {
+$(".serviceSection .carousel-control-next").on("click", function () {
   currentScrollPostion = currentScrollPostion + cardWidth;
-  $(".carousel-inner").animate({ scrollLeft: currentScrollPostion }, 600);
+  $(".serviceSection .carousel-inner").animate(
+    { scrollLeft: currentScrollPostion },
+    600
+  );
 });
-$(".carousel-control-prev").on("click", function () {
+$(".serviceSection .carousel-control-prev").on("click", function () {
   currentScrollPostion = currentScrollPostion - cardWidth;
-  $(".carousel-inner").animate({ scrollLeft: currentScrollPostion }, 600);
+  $(".serviceSection .carousel-inner").animate(
+    { scrollLeft: currentScrollPostion },
+    600
+  );
+});
+
+var carouselWidth = $(".workflowBg .carousel-inner")[0].scrollWidth;
+console.log(carouselWidth);
+var cardWidth = $(".workflowBg .carousel-item").width();
+console.log(cardWidth);
+var currentScrollPostion = 0;
+$(".workflowBg .carousel-control-next").on("click", function () {
+  currentScrollPostion = currentScrollPostion + cardWidth;
+  $(".workflowBg .carousel-inner").animate(
+    { scrollLeft: currentScrollPostion },
+    600
+  );
+});
+$(".workflowBg .carousel-control-prev").on("click", function () {
+  currentScrollPostion = currentScrollPostion - cardWidth;
+  $(".workflowBg .carousel-inner").animate(
+    { scrollLeft: currentScrollPostion },
+    600
+  );
 });
