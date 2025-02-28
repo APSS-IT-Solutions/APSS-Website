@@ -140,12 +140,23 @@ h2 {
   .lead {
     font-size: 14px;
   }
-  .carouselLeftButton {
-    margin-left: -15px;
-  }
 
   .carouselRightButton {
-    margin-right: -15px;
+    margin-right: -20px;
+  }
+
+  .carouselLeftButton {
+    margin-left: -20px;
+  }
+
+  .carousel-control-prev-icon {
+    width: 10px;
+    height: 10px;
+  }
+
+  .carousel-control-next-icon {
+    width: 10px;
+    height: 10px;
   }
 }
 
