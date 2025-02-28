@@ -22,3 +22,17 @@ document
       }
     );
   });
+
+var carouselWidth = $(".carousel-inner")[0].scrollWidth;
+console.log(carouselWidth);
+var cardWidth = $(".carousel-item").width();
+console.log(cardWidth);
+var currentScrollPostion = 0;
+$(".carousel-control-next").on("click", function () {
+  currentScrollPostion = currentScrollPostion + cardWidth;
+  $(".carousel-inner").animate({ scrollLeft: currentScrollPostion }, 600);
+});
+$(".carousel-control-prev").on("click", function () {
+  currentScrollPostion = currentScrollPostion - cardWidth;
+  $(".carousel-inner").animate({ scrollLeft: currentScrollPostion }, 600);
+});

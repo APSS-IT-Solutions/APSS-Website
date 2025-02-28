@@ -117,24 +117,8 @@ h2 {
   background-color: #e7f1ff;
 }
 
-.industriesSection .container {
-  background-color: #e7f1ff;
-}
-
 .industriesSection img {
   width: 75%;
-}
-
-.accordion-button {
-  border-radius: 10px 10px 10px 10px !important;
-
-  margin-bottom: 1rem;
-}
-
-.accordion-body {
-  border: solid 1px none;
-  background-color: #ffffff;
-  margin-bottom: 1rem;
 }
 
 .CTABgImage {
@@ -162,5 +146,21 @@ h2 {
 
   .carouselRightButton {
     margin-right: -15px;
+  }
+}
+
+.card {
+  margin: 1rem;
+}
+
+@media screen and (min-width: 576px) {
+  .carousel-inner {
+    display: flex;
+  }
+
+  .carousel-item {
+    display: block;
+    margin-right: 0;
+    flex: 0 0 calc(100% / 3);
   }
 }
