@@ -150,13 +150,13 @@ h2 {
   }
 
   .carousel-control-prev-icon {
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
   }
 
   .carousel-control-next-icon {
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
   }
 }
 

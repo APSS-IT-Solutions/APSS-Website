@@ -23,22 +23,24 @@ document
     );
   });
 
-var carouselWidth = $(".serviceSection .carousel-inner")[0].scrollWidth;
-console.log(carouselWidth);
-var cardWidth = $(".serviceSection .carousel-item").width();
-console.log(cardWidth);
-var currentScrollPostion = 0;
+var servicesCarouselWidth = $(".serviceSection .carousel-inner")[0].scrollWidth;
+
+var servicesCardWidth = $(".serviceSection .carousel-item").width();
+
+var currentServicesScrollPostion = 0;
 $(".serviceSection .carousel-control-next").on("click", function () {
-  currentScrollPostion = currentScrollPostion + cardWidth;
+  currentServicesScrollPostion =
+    currentServicesScrollPostion + servicesCardWidth;
   $(".serviceSection .carousel-inner").animate(
-    { scrollLeft: currentScrollPostion },
+    { scrollLeft: currentServicesScrollPostion },
     600
   );
 });
 $(".serviceSection .carousel-control-prev").on("click", function () {
-  currentScrollPostion = currentScrollPostion - cardWidth;
+  currentServicesScrollPostion =
+    currentServicesScrollPostion - servicesCardWidth;
   $(".serviceSection .carousel-inner").animate(
-    { scrollLeft: currentScrollPostion },
+    { scrollLeft: currentServicesScrollPostion },
     600
   );
 });
